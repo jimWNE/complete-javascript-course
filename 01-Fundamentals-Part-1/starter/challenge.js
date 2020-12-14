@@ -19,32 +19,32 @@ m tall.
 console.log("CODING CHALLENGE #1");
 
 // Test Data 1:
-const weightMark = 78;
-const heightMark = 1.69;
+let weightMark = 78;
+let heightMark = 1.69;
 
-const weightJohn = 92;
-const heightJohn = 1.95;
+let weightJohn = 92;
+let heightJohn = 1.95;
 
-const bmiMark = 78 / 1.69 ** 2;
+const bmiMark = weightMark / heightMark ** 2;
 console.log(bmiMark);
 
-const bmiJohn = 92 / (1.95 * 1.95);
+const bmiJohn = weightJohn / (heightJohn * heightJohn);
 console.log(bmiJohn);
 
 const markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
 
 // Test Data 2:
-const weightMark2 = 95;
-const heightMark2 = 1.88;
+weightMark = 95;
+heightMark = 1.88;
 
-const weightJohn2 = 85;
-const heightJohn2 = 1.76;
+weightJohn = 85;
+heightJohn = 1.76;
 
-const bmiMark2 = 95 / 1.88 ** 2;
+const bmiMark2 = weightMark / heightMark ** 2;
 console.log(bmiMark2);
 
-const bmiJohn2 = 85 / (1.76 * 1.76);
+const bmiJohn2 = weightJohn / (heightJohn * heightJohn);
 console.log(bmiJohn2);
 
 const markHigherBMI2 = bmiMark2 > bmiJohn2;

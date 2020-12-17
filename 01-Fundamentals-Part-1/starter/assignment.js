@@ -59,4 +59,25 @@ const descriptionFirst = 'Portugal is in Europe,';
 const descriptionSecond = 'and its 11 million people speak portuguese.';
 const description2 = descriptionFirst + ' ' + descriptionSecond;
 console.log(description2);
+
+
+// Strings and Template Literals
+console.log("Strings and Template Literals");
+
+const portugalPopulation = 11
+const place = "Europe"
+const description =`Portugal is in ${place}, and it's ${portugalPopulation} million people speak portuguese`;
+console.log(description);
+
+
+// Taking decisions: if / else statements
+console.log("Taking decisions: if / else statements");
+
+const portugalPopulation = 11
+
+if (portugalPopulation >= 33) {
+    console.log(`Portugal's population is above average`);
+} else {
+    console.log(`Portugal's population is 22 million below average`);
+}
 */
